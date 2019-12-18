@@ -1,0 +1,23 @@
+/* Eng. Ala Section */
+/* Duration Section */
+#duration
+{
+    color: white;
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/invitation.jpg);
+    background-size: cover;
+    background-color: rgba(214, 46, 51, 0.6);
+    background-blend-mode: overlay;
+}
+
+#duration .container
+{
+    padding: 100px 0px;
+}
+
+.time
+{
+    padding: 50px;
+    border: 1px solid white;
+}
