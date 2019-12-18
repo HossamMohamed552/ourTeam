@@ -1,5 +1,5 @@
 /* Eng. Ala Section */
-/* Duration Section */
+    /* Duration Section */
 #duration
 {
     color: white;
@@ -21,3 +21,44 @@
     padding: 50px;
     border: 1px solid white;
 }
+/* hossam */
+.menu{
+    position: fixed;
+    width: 200px;
+    left: -200px;
+    top: 0;
+    bottom: 0;
+    background-color: #1b1e21;
+    z-index: 355;
+}
+.menu ul li{
+    padding: 15px;
+}
+.menu ul li a {
+    color: #f7f7f7;
+    text-decoration: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all linear .3s;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+    color: #0C919D;
+}
+.hold-icon{
+    position: absolute;
+    top: 50%;
+    right: -20%;
+    background-color: #1b1e21;
+    color: #f7f7f7;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+}
+.hold-icon .fa-arrow-right {
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+    right: -10px;
+    transition: all linear .5s;
+}
+/* end*/

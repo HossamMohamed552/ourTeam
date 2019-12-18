@@ -28,3 +28,31 @@ function countdown(){
 } 
 
 countdown();
+
+// hossam
+    // slide menu
+$(".hold-icon").click(function () {
+
+    if ($(".menu").css("left") == `-${$(".menu").outerWidth()}px`) {
+        $(".menu").animate({
+            left: "0"
+        }, 500);
+        $(".fa-arrow-right").css("transform", "rotate(180deg)")
+
+    } else {
+        $(".menu").animate({
+            left: `-${$(".menu").outerWidth()}px`
+        }, 500);
+        $(".fa-arrow-right").css("transform", "rotate(0deg)")
+
+    }
+
+
+});
+
+$(".menu ul li a").click(function(){
+
+    $("html,body").animate({
+        scrollTop : $(`${$(this).attr('href')}`).offset().top
+    },500)
+})
