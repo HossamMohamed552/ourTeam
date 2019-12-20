@@ -56,3 +56,8 @@ $(".menu ul li a").click(function(){
         scrollTop : $(`${$(this).attr('href')}`).offset().top
     },500)
 })
+ // Abeer 
+ $('.singer').click(function(){
+  $(this).next('p').slideToggle(500);
+   $("#singers .singer").not($(this)).next('p').slideUp(500);
+});

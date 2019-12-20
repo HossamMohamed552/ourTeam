@@ -62,3 +62,20 @@
     transition: all linear .5s;
 }
 /* end*/
+/* Eng. Abeer Section */
+#singers h3.singer{
+  background-color: rgba(214, 46, 51 , 0.6);
+  padding:10px;
+  cursor: pointer;
+  margin:0;
+}
+#singers p{
+  background-color: #ccc;
+  padding:20px;
+  display: none;
+  margin:0;
+  color:#000;
+  font-size: 13px
+}
+
+/*End*/
