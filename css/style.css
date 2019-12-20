@@ -150,3 +150,179 @@
 }
 
 /*    End Of Abdallah    */
+
+
+
+/* Abdullatif Section */
+.all-members
+{
+    overflow: auto;
+    margin:30px auto;
+}
+
+.all-members .item1
+{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    color: #ffff;
+    padding: 0 15px;
+}
+
+.member
+{   
+    position: relative;
+    border: 3px solid #ffff;
+    overflow: hidden;
+}
+.member img 
+{
+    width: 100%
+}
+
+.member .member-caption
+{
+    background-color: rgba(42,63,85,.7);
+    position: absolute;
+    top: 100%;
+    left: 0%; 
+    height: 100%;
+    width: 100%;
+    transition: 1s top;
+}
+
+.member:hover .member-caption
+{
+    top: 0;
+}
+
+.member .member-caption h2
+{
+    background-color: #2A3F55;
+    margin-top: 0;
+    padding: 10px;
+    
+}
+
+.member .member-caption p
+{
+    font-size: 18px;
+    padding: 25Px;
+}
+
+
+
+
+.member1
+{   
+    position: relative;
+    border: 3px solid #ffff;
+    overflow: hidden;
+}
+.member1 img 
+{
+    width: 100%;
+    transition: transform 1s 1s;
+}
+.member1:hover img 
+{
+    transform: scale(1.1);
+}
+
+.member1 .member1-caption
+{
+    background-color: rgba(42,63,85,.7);
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+    height: 100%;
+    width: 100%;
+    transition: 1s opacity , 1s transform;
+    opacity: 0;
+}
+
+.member1:hover .member1-caption
+{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+.member1 .member1-caption h2
+{
+    background-color: #2A3F55;
+    margin-top: 0;
+    padding: 10px;
+    
+}
+
+.member1 .member1-caption p
+{
+    font-size: 18px;
+    padding: 25Px;
+}
+
+
+
+.member2
+{   
+    position: relative;
+    border: 3px solid #ffff;
+    overflow: hidden;
+}
+.member2 img 
+{
+    width: 100%;
+    transition: transform 1s 1s;
+}
+.member2:hover img 
+{
+    transform: scale(1.1);
+}
+
+.member2 .member2-caption
+{
+    background-color: rgba(42,63,85,.7);
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+    height: 100%;
+    width: 100%;
+    transition: 1s opacity , 1s transform;
+    opacity: 0;
+}
+
+.member2:hover .member2-caption
+{
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+.member2 .member2-caption h2
+{
+    background-color: #2A3F55;
+    margin-top: 0;
+    padding: 10px;
+    position: relative;
+    left: 120%;
+    transition: left 1s 2s;
+}
+
+.member2:hover .member2-caption h2
+{
+    left: 0%;
+}
+
+.member2 .member2-caption p
+{
+    font-size: 18px;
+    padding: 25Px;
+    position: relative;
+    left: 120%;
+    transition: left 1s 2.5s;
+}
+
+.member2:hover .member2-caption p
+{
+    left: 0%;
+}
+/*  End  */
