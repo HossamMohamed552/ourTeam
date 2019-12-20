@@ -79,3 +79,74 @@
 }
 
 /*End*/
+
+
+
+/* Abdallah Section */
+/*    -> WORK SECTION <-    */
+#work h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#work .work-box
+{
+    cursor: pointer;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+#work .work-box .work-img 
+{
+    overflow: hidden;
+}
+
+#work .work-box:hover img
+{
+    transform: scale(1.3);
+}
+
+#work .work-box .work-img img
+{
+    transition: transform 1s;
+}
+
+#work .work-box .work-content 
+{
+    padding: 2rem 1rem;
+}
+
+#work .work-box .work-content h2
+{
+    font-size: 1.2rem;
+}
+
+#work .work-box .work-content .w-more
+{
+    font-size: .8rem;
+}
+
+#work .work-box .work-content .w-ctegory
+{
+    color: #0078ff;
+}
+
+#work .work-box .work-content i
+{
+    float: right;
+    font-size: 1.5rem;
+    color: #0078ff;
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+}
+
+.line 
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+/*    End Of Abdallah    */
