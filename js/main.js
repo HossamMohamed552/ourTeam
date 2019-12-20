@@ -12,20 +12,20 @@ function countdown(){
     var s = Math.floor(remTime / 1000);
     var m = Math.floor(s / 60);
     var h = Math.floor(m / 60);
-    var d = Math.floor(h / 24)-30; 
-    h %= 24; 
-    m %= 60; 
-    s %= 60; 
-    h = (h < 10) ? "0" + h : h; 
-    m = (m < 10) ? "0" + m : m; 
+    var d = Math.floor(h / 24)-30;
+    h %= 24;
+    m %= 60;
+    s %= 60;
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;
 
-    document.getElementById("days").innerHTML = "<h3>"+  d + " days"+"</h3>"; 
-    document.getElementById("hours").innerHTML ="<h3>"+  h + " hours"+"</h3>"; 
-    document.getElementById("minutes").innerHTML = "<h3>"+  m + " minutes"+"</h3>"; 
-    document.getElementById("seconds").innerHTML = "<h3>"+  s + " seconds"+"</h3>"; 
+    document.getElementById("days").innerHTML = "<h3>"+  d + " days"+"</h3>";
+    document.getElementById("hours").innerHTML ="<h3>"+  h + " hours"+"</h3>";
+    document.getElementById("minutes").innerHTML = "<h3>"+  m + " minutes"+"</h3>";
+    document.getElementById("seconds").innerHTML = "<h3>"+  s + " seconds"+"</h3>";
     setTimeout(countdown, 1000);
-} 
+}
 
 countdown();
 
@@ -56,8 +56,17 @@ $(".menu ul li a").click(function(){
         scrollTop : $(`${$(this).attr('href')}`).offset().top
     },500)
 })
- // Abeer 
+ // Abeer
  $('.singer').click(function(){
   $(this).next('p').slideToggle(500);
    $("#singers .singer").not($(this)).next('p').slideUp(500);
+});
+
+// AbdelrahmanMohsen
+var MaxLength = 100;
+$("#FeedBack").html(MaxLength + " Character Remaining ");
+$("#UserMessage").keyup(function(){
+    var UserTextLength = $("#UserMessage").val().length;
+    var UserRemaining = MaxLength - UserTextLength;
+    $("#FeedBack").html(UserRemaining + " Characters Remaining ");
 });
